@@ -1,3 +1,3 @@
-import { useNFT } from './useNFT'
+import { useNFT } from './hooks/useNFT'
 
 export { useNFT }
