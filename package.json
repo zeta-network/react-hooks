@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "source": "src/index.ts",
-  "main": "src/index.ts",
+  "main": "build/index.js",
   "files": [
     "build"
   ],
@@ -18,6 +18,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@thetalabs/theta-js": "^0.0.66",
     "axios": "^0.26.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
